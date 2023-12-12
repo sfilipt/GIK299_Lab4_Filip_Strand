@@ -1,0 +1,14 @@
+C:\Users\Filip\source\repos\GIK299_Lab4_Filip_Strand\bin\Debug\net7.0\Laboration4.exe
+C:\Users\Filip\source\repos\GIK299_Lab4_Filip_Strand\bin\Debug\net7.0\Laboration4.deps.json
+C:\Users\Filip\source\repos\GIK299_Lab4_Filip_Strand\bin\Debug\net7.0\Laboration4.runtimeconfig.json
+C:\Users\Filip\source\repos\GIK299_Lab4_Filip_Strand\bin\Debug\net7.0\Laboration4.dll
+C:\Users\Filip\source\repos\GIK299_Lab4_Filip_Strand\bin\Debug\net7.0\Laboration4.pdb
+C:\Users\Filip\source\repos\GIK299_Lab4_Filip_Strand\obj\Debug\net7.0\Laboration4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Filip\source\repos\GIK299_Lab4_Filip_Strand\obj\Debug\net7.0\Laboration4.AssemblyInfoInputs.cache
+C:\Users\Filip\source\repos\GIK299_Lab4_Filip_Strand\obj\Debug\net7.0\Laboration4.AssemblyInfo.cs
+C:\Users\Filip\source\repos\GIK299_Lab4_Filip_Strand\obj\Debug\net7.0\Laboration4.csproj.CoreCompileInputs.cache
+C:\Users\Filip\source\repos\GIK299_Lab4_Filip_Strand\obj\Debug\net7.0\Laboration4.dll
+C:\Users\Filip\source\repos\GIK299_Lab4_Filip_Strand\obj\Debug\net7.0\refint\Laboration4.dll
+C:\Users\Filip\source\repos\GIK299_Lab4_Filip_Strand\obj\Debug\net7.0\Laboration4.pdb
+C:\Users\Filip\source\repos\GIK299_Lab4_Filip_Strand\obj\Debug\net7.0\Laboration4.genruntimeconfig.cache
+C:\Users\Filip\source\repos\GIK299_Lab4_Filip_Strand\obj\Debug\net7.0\ref\Laboration4.dll
