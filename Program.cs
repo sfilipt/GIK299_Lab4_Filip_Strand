@@ -7,7 +7,7 @@ namespace Laboration4
     {
         static void Main(string[] args)
         {
-            int menuChoice = 0;
+            int menuChoice=0;
             int personCounter = 0;
             List<Person> Persons = new List<Person>();
             while (menuChoice != 3)
@@ -15,8 +15,12 @@ namespace Laboration4
                 Console.WriteLine("\n Vad vill du göra nu? \n 1. Lägga till personer i listan.  " +
                     "\n 2. Skriva ut alla personer som lagts till i listan. " +
                     "\n 3. Avsluta programmet. ");
-                menuChoice = Convert.ToInt32(Console.ReadLine());
-
+             string menuChoiceInput=Console.ReadLine();
+                while (!int.TryParse(menuChoiceInput, out menuChoice) || menuChoice > 3 || menuChoice < 1)
+                {
+                    Console.WriteLine("Skriv in en siffra mellan 1 och 3");
+                    menuChoiceInput = Console.ReadLine();
+                }
                 switch (menuChoice)
                 {
                     case 1:
@@ -31,13 +35,15 @@ namespace Laboration4
             }
             void AddPerson()
             {
+                //Här initialiserar jag de variabler som behöver användas senare i metoden
                 int birthYear;
                 int birthMonth;
                 int birthDay;
                 int genderChoice;
-                string name;
                 Console.WriteLine("Skriv in namnet på personen");
-                name = Console.ReadLine();
+                string name = Console.ReadLine();
+                //För varje input från användaren har jag skapat en while-loop som kommer loopa och uppmana användaren om korrekt input  
+                //tills programmet får det.
                 while (string.IsNullOrWhiteSpace(name))
                 {
                     Console.WriteLine("Du kan inte lämna detta fält tomt. Försök igen.");
@@ -95,6 +101,9 @@ namespace Laboration4
                     hairColor = Console.ReadLine();
                 }
                 Hair personHair = new Hair(hairLength, hairColor);
+                //Programmet använder nu den validerade inputen för att skapa ett nytt objekt av klassen "Person" och lägga till det i listan
+                //"Persons. För att hålla koll på vilken plats i listan som personen ska läggas till i använder jag variabeln personCounter.
+                //För varje gång metoden AddPerson anropas och fullföljs av användaren så kommer variabeln personCounter att öka med 1.
                 Persons.Insert(personCounter, new Person(name, eyeColor, birthDate, personHair, personGender));
                 personCounter = personCounter++;
             }
